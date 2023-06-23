@@ -5,5 +5,6 @@ async function start() {
   const bot = await connect();
   load(bot);
 }
+console.log("hi")
 
 start();
