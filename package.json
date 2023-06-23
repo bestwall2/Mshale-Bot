@@ -4,7 +4,8 @@
   "description": "open source whatssep bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "stop":"pm2 restart index.js"
   },
   "keywords": [],
   "author": "",
